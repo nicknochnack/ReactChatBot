@@ -1,0 +1,53 @@
+/* .container{
+  text-align: center;
+}
+
+input{
+  border: 0;
+  border-bottom: 1px solid black;   
+  height: 20px;
+  width: 400px;
+  outline: none;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+
+.bot{
+  background-color: rgb(152, 85, 212);
+  color: white;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border-radius: 10px;
+  text-align: left;
+  margin-top: 10px;
+  padding: 4px;
+  padding-left: 20px;
+  max-width: 300px;
+}
+
+.user{
+  background-color: rgb(0, 180, 160);
+  color: white;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border-radius: 10px; 
+  text-align: right;
+  margin-top: 10px;
+  padding: 4px;
+  padding-right: 20px;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.chat{
+  display: inline-block;
+  max-width: 400px;
+}
+.historyContainer{
+  height:600px;
+  overflow: scroll;
+}
+h1{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+} */
