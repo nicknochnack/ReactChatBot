@@ -1,0 +1,28 @@
+{
+  "name": "reactchat",
+  "version": "1.0.0",
+  "description": "A react express chatbot app.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server", 
+    "client":"npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client \""
+  },
+  "author": "Nicholas Renotte",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "ibm-watson": "^5.5.0",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
